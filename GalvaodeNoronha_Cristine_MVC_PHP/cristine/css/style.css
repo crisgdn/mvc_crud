@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #EA4B5D;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+   
+ /* Forms
+    ========================================================================== */
+
+ html {
+  display: flex;
+  justify-content: center;
+
+ }
+ 
+ h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+ }
+
+ .form {
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  column-gap: 10px;
+
+ }
+
+ .button {
+  height: 30px;
+  width: 100px;
+  left: 20px;
+  color:#fff;
+  background: #17A2B8;
+  border-radius: 20px;
+ }
+
+ label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+ }
+ 
+ input {
+    height: 30px;
+    background: #fff;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+ }
+ 
+ /* Forms
+    ========================================================================== */
+
+    html {
+      /* display: flex;
+      justify-content: center; */
+      width: 1440px;
+    
+     }
+     
+     h2 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+     }
+    
+     .form {
+      /* display: flex;
+      flex-direction: column; */
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      justify-content: center;
+      column-gap: 10px;
+      width: 900px;
+      margin-top: 30px;
+     }
+    
+     .button {
+      height: 30px;
+      width: 100px;
+      left: 20px;
+      color:#fff;
+      background: #17A2B8;
+      border-radius: 20px;
+     }
+    
+     label {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+     }
+     
+     input {
+        height: 30px;
+        background: #fff;
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+     }
+
+/* ---------------------grid---------------- */
