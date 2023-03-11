@@ -27,8 +27,7 @@ public function deleteUser($id) {
 	$this->delete($id);
 }
 
-public function getUsersJSON() {
-	$userfip = $this->model->getAll();
+public function getUsersJSON($userfip) {
 	$json = json_encode($userfip);
 	header('Content-Type: application/json');
 	echo $json;
