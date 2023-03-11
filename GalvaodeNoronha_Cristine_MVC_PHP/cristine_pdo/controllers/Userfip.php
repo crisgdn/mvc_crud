@@ -8,6 +8,7 @@ class Userfip {
 
 private $model;
 public $userfip;
+public $json;
 
 
 public function __construct() {
@@ -83,6 +84,17 @@ public function loadViews() {
 	require_once('views/footer.php');
 
 }
+
+        
+
+		// public function json() {
+		// 	if(isset($_GET['task']) && $_GET['task'] == 'json') {
+		// 		$json = json_encode($userfip, JSON_PRETTY_PRINT);
+		// 		$userfip = $this->model->getUsersJSON($userfip);
+		// 		header("location:json_only.php");
+        //         echo $json;
+		// 	}
+		// }
 
 }
 
